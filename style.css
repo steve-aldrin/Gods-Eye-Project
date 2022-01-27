@@ -74,6 +74,7 @@ img.bg {
       left: 50%;
       margin-left: -512px;   
     }
+
   }
 
 button{
@@ -102,14 +103,17 @@ button:hover{
 
 }
 
-@media  screen and (max-width:506) {
+@media only screen and (max-width: 650px) {
     div.b{
         width: fit-content;
-        margin:90% auto;
+        margin:600px auto;
+
         
     }
-    button{
-        color: brown;
+    
+    .name{
+        font-size: 60px;
     }
+
 }
 
